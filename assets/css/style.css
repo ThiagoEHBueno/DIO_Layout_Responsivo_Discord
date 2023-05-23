@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@300;400;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+header {
+    text-align: center;
+    height: 459px;
+    padding-top: 100px;
+}
+
+h1 {
+    width: 313px;
+    height: 112px;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    color: #572828;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+header button {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: 'Open Sans';
+}
+
+.topo {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-p {
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.white {
+    background-color: #ffffff;
+    color: #23272A;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.black {
+    background-color: #23272A;
+    color: #ffffff;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.sect {
+    height: 31.25rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.sect2 {
+    background-color: #F6F6F6;
+    height: 31.25rem;
+    justify-items: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+}
+
+.sect2 > .img{
+    grid-column: 2;
+}
+
+.sect2 > .text {
+    grid-column: 1;
+}
+
+.sect3 {
+    height: 37rem;
+    background-color: #F6F6F6;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    grid-auto-flow: row;
+}
+
+.sect3 > .img{
+    grid-row: 2;
+}
+
+.sect3 > .text {
+    grid-row: 1;
+}
+
+.sect3 > .text > h2 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+    height: 120px;
+    text-align: center;
+}
+
+.h2-first-section {
+    margin-bottom: 30px;
+}
+
+.sect3 > .text > p {
+    width: 800px;
+    text-align: center;
+}
+
+.img img {
+    width: 607px;
+    height: 394px;
+}
+
+.text h2 {
+    font-weight: bolder;
+    width: 380px;
+    height: 240px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 53px;
+    margin-top: 1.8rem;
+}
+
+.text p {
+    width: 300px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 22px;
+}
+
+footer {
+    text-align: center;
+    background-color: #23272A;
+    height: 100px;
+}
+
+footer img {
+    height: 30px;
+    margin-top: 2.188rem;
+}
+
+@media screen and (max-width: 990px) {
+    h1 {
+        width: 278px;
+        height: 64px;
+        font-size: 32px;
+        margin-left: 0;
+    }
+    .header-p {
+        width: 381px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .button button{
+        display: block;
+        margin: 10px auto;
+    }
+    .sect, .sect2 {
+        display: block;
+    }
+    .h2-first-section {
+        margin-bottom: 20px;
+    }
+    .sect3 > .text > h2 {
+        width: 376px;
+    }
+    
+    .sect3 > .text > p {
+        width: 378px;   
+    }
+
+    .text h2 {
+        font-weight: bolder;
+        width: 370px;
+        height: 99px;
+        font-size: 24px;
+        line-height: 33px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .text p {
+        width: 378px;
+        height: 88px;
+        font-family: 'Open Sans';
+        font-size: 16px;
+        line-height: 22px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .img img{
+        width: 379px;
+        height: 252px;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
